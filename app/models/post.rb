@@ -3,3 +3,5 @@ class Post < ActiveRecord::Base
   validates_with CategoryValidator 
   validates :content, length: { minimum: 100 }
 end
+
+class CategoryValidator <
