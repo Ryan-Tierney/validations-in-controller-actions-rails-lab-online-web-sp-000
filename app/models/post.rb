@@ -10,3 +10,6 @@ class CategoryValidator < ActiveModel::Validator
       true 
     else 
       false 
+    end 
+  end 
+end 
