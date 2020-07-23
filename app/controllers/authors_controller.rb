@@ -11,6 +11,8 @@ class AuthorsController < ApplicationController
     if @author.valid?
       @author.save 
     redirect_to author_path(@author)
+  else 
+    render :new 
   end
 
   private
