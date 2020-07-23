@@ -5,4 +5,5 @@ class Post < ActiveRecord::Base
 end
 
 class CategoryValidator < ActiveModel::Validator
-  
+  def validate(category)
+    
