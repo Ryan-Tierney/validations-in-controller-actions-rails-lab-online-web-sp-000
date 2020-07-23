@@ -6,4 +6,7 @@ end
 
 class CategoryValidator < ActiveModel::Validator
   def validate(category)
-    if :category = 
+    if Post.category == "Fiction" || Post.category == "NonFiction" 
+      true 
+    else 
+      false 
