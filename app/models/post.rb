@@ -6,4 +6,4 @@ end
 
 class CategoryValidator < ActiveModel::Validator
   def validate(category)
-    
+    if :category = 
